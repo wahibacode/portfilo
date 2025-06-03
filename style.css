@@ -1,1 +1,87 @@
->!
+/* Import Roboto font */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background-color: #5809ecef;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+.navbar {
+  background-color: #d7dce2;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.nav-item {
+  margin: 0 1em;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-item a:hover {
+  color: #ffcc00;
+}
+
+.main {
+  padding: 2em;
+}
+
+.section {
+  margin-bottom: 2em;
+}
+
+.contact-form input, 
+.contact-form textarea {
+     width: 100%;
+  max-width: 400px;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+.footer {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
